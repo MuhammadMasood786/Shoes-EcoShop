@@ -1,38 +1,128 @@
-.App {
+.fa-shopping-cart,.fa-user-circle-o{
+  font-size: 24px !important;
+  color:black !important;
+  margin-right: 20px !important;
+}
+.fa-cart-plus{
+  font-size: 22px !important;
+}
+.fa-plus-circle{
+  font-size: 24px !important;
+  color: grey !important;
+}
+.fa-plus-circle:hover{
+  font-size: 30px !important;
+  color: red !important;
+}
+#colorLess{
+  color: white !important;
+  text-shadow: 2px 2px 4px black;
+  text-decoration: none !important;
+}
+.fa-cart-plus:hover{
+  font-size: 24px !important;
+  color: red !important;
+}
+.fa-shopping-cart:hover,.fa-user-circle-o:hover{
+  font-size: 26px !important;
+  color:orange !important;
+}
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+.logoHeader{
+  font-family: 'Modak', cursive;
+  color: black !important;
+  font-size: 35px !important;
+}
+.logoHeading{
+  font-family: 'Modak', cursive;
+  color: black !important;
+  font-size: 50px !important;
+}
+.linkColor{
+  color: black !important;
+  text-decoration: none !important;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.linkColor:hover{
+  font-weight: bold;
+  text-shadow: 2px 2px 3px black;
+}
+.Navbarstyle{
+  border-bottom: 1px solid grey;
+  box-shadow: 2px 2px 3px black;
+}
+.imgBanner{
+  width: 450px !important;
+  height: 400px !important;
+  position: relative;
+  right: 30px;
+  top: 120px;
+}
+.setDiv{
+  line-height: 130px;
+  margin-top: 200px;
+  margin-left: 150px;
+}
+.styleHeading{
+  text-shadow: 2px 2px 5px black;
+  color: white;
+}
+.btn-outline-dark{
+  font-size: 24px !important;
+  font-weight: bold !important;
+  padding: 10px;
+  border-radius: 50px !important;
+  width: 180px;
+}
+.cardSize{
+  width: 18rem;
+}
+.btnSize{
+  width: 100%;
+}
+.colorPrice{
+  color:red;
+  font-size: 15px;
+  font-weight: bold;
+}
+.styleTitle{
+  color:grey;
+  font-size: 15px;
+  font-weight: bold;
+}
+.btnStyle:hover{
+  background-color: red !important;
+}
+.beside{
+  display: flex;
+  justify-content: space-between;
+}
+.styleImg{
+  width: 500px !important;
+  height: 400px !important;
+  padding: 10px !important;
+}
+.cardStyle{
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.mainStyle{
+  text-align: center;
+}
+.colorPrice1{
+  color:red;
+  font-size: 24px;
+  font-weight: bold;
+}
+.styleTitle1{
+  color:grey;
+  font-size: 32px;
+  font-weight: bold;
+}
+.beside1{
+  display: flex;
+  justify-content: space-around;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
