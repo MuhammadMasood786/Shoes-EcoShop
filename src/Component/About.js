@@ -4,7 +4,7 @@ import '../App.css';
 function About() {
   return (
     <div>
-      <h1>Welcome To About</h1>
+      <h1 className=" row justify-content-center mt-5 logoHeading">Welcome To About Us</h1>
     </div>
   );
 }

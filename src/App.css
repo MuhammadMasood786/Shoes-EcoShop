@@ -125,4 +125,8 @@
   justify-content: space-around;
   text-align: center;
 }
-
+.flexBox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

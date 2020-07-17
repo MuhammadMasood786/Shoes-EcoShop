@@ -23,7 +23,7 @@ function Product(props) {
                     <CardTitle className="styleTitle">{Shoes[keyName].name}</CardTitle>
                     <div className="beside">
                       <CardSubtitle className="colorPrice"><b>{Shoes[keyName].price}</b></CardSubtitle>
-                      <CardText><Link to={`/product/${keyName}`}><i class="fa fa-cart-plus" aria-hidden="true"></i></Link></CardText>
+                      <CardText><Link to={`/product/${keyName}`}><i className="fa fa-cart-plus" aria-hidden="true"></i></Link></CardText>
                     </div>
                   </CardBody>
                 </Card>
